@@ -1,10 +1,12 @@
-// 2D array list is a dynamic list of lists
-// You can change the size of these lists during runtime.
+package Arrays;
 
 import java.lang.reflect.Array;
 import java.util.*;
 
 public class array_list_2D {
+
+    // 2D array list is a dynamic list of lists
+    // You can change the size of these lists during runtime.
 
     public static void main(String[] args) {
 

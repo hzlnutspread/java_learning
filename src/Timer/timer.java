@@ -1,3 +1,5 @@
+package Timer;
+
 import java.util.Calendar;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -6,9 +8,8 @@ public class timer {
 
     public static void main(String[] args) {
 
-        //Time =    A facility for threads to schedule tasks for future execution in a background thread. Keeps track of time
-
-        //TimerTask =   Task that can be scheduled for one-time or repeated execution by a timer
+                //Time = A facility for threads to schedule tasks for future execution in a background thread. Keeps track of time
+                //TimerTask = Task that can be scheduled for one-time or repeated execution by a timer
 
         Timer timer = new Timer();
 

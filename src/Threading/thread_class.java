@@ -1,3 +1,5 @@
+package Threading;
+
 public class thread_class extends Thread {
 
     @Override

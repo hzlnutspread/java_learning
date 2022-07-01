@@ -1,3 +1,5 @@
+package Threading;
+
 public abstract class threads {
 
     public static void main(String[] args) throws InterruptedException {

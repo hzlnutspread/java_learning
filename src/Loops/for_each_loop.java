@@ -1,4 +1,4 @@
-//For-each = traversing technique to iterate through the elements in an array/collection.
+package Loops;//For-each = traversing technique to iterate through the elements in an array/collection.
 // Less steps, more readable.
 // Less flexible
 

@@ -1,3 +1,5 @@
+package Loops;
+
 import java.util.Scanner;
 //nested loop = loop inside a loop
 

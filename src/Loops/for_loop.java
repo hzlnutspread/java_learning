@@ -1,4 +1,4 @@
-//for loop = executes code a limited amount of times
+package Loops;//for loop = executes code a limited amount of times
 // 3 statements, index, condition, increment/decrement.
 
 public class for_loop {

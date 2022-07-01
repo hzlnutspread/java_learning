@@ -1,12 +1,14 @@
-/*
-ArrayList = a resizable array
-elements can be added and removed after compilation phase
-Store reference data types
- */
+package Arrays;
 
 import java.util.ArrayList;
 
 public class array_list {
+
+    /*
+    ArrayList = a resizable array
+    elements can be added and removed after compilation phase
+    Store reference data types
+    */
 
     public static void main(String[] args) {
 
@@ -21,7 +23,7 @@ public class array_list {
         foods.clear();
 
 
-        for(int i = 0; i < foods.size(); i++) {
+        for (int i = 0; i < foods.size(); i++) {
             System.out.println(foods.get(i));
         }
     }
