@@ -1,0 +1,14 @@
+Throwable has two subclasses; error and exception.
+    Error and exception are separate from eachother
+
+All exceptions in java are subclasses of the exception class e.g. nullpointerexception
+    The RunTimeException and all subclasses of this are UNCHECKED exceptions
+    Any exception that isnt a runtimeexception is a checked exception including the exception class itself e.g. filenotfoundexception
+
+If we type
+    "Throw new Exception(); we will get an error because this is a checked exception
+
+If we type
+    "Threw new RunTimeException(); we will not get an error because this is an unchecked exception
+
+Should deal with all exception using try catch anyway.
