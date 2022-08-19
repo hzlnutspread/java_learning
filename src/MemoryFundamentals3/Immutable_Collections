@@ -1,0 +1,6 @@
+Collections.unmodifyableMap
+Collections.unmodifyableList
+If we pass a collection into one of these, then we will get a version that then can't be edited.
+    This avoids the reference escaping from the class
+
+What we do instead of providing a reference to the map, is we provide a copy of the collection that is immutable.

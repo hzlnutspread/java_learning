@@ -1,0 +1,4 @@
+If we have a collection, referenced by a variable, and we set another variable equal to the collection variable, both variables point to the same object on the heap
+If we create a new collection, and pass an existing collection in to the constructor of the new collection, then we create a new object on the heap and a new variable on the stack pointing to the object.
+Possible downside, The client is still free to mutate the collection that they have been passed.
+The best solution to prevent escaping references is to create an immutable collection

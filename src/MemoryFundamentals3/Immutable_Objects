@@ -1,0 +1,13 @@
+Customer cust = (new Customer("John"));
+String name = cust.getName();
+name = "Simon";
+
+First line creates cust variable on the stack --> points to Customer object with field name on heap --> points to String John on heap
+Second line creates name variable on stack --> points to String John immediately.
+Third line create new object String "Simon" on the heap and name variable points to this.
+
+So, cust still points to Customer name object which is still pointing to String "John".
+the copy of cust variable called name is now pointing to "Simon".
+Trying to change the name has not worked.
+
+Wrappers are immutable.
