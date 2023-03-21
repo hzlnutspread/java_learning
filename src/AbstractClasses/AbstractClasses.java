@@ -7,6 +7,7 @@ public class AbstractClasses {
 
         Cat myCat = new Cat();
         myCat.makeNoise();
+        System.out.println(myCat);
 
     }
 }
